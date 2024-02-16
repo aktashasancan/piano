@@ -1,0 +1,248 @@
+﻿
+/*Body*/
+body {
+	font-size: 1em;
+	font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+}
+
+
+@font-face {
+  font-family: "JLL-HAND";
+  src: url("../webfonts/JLL-HAND.woff");
+} 
+
+
+.textinner {
+  font-weight: 400;
+  font-size: 1.30em;
+    line-height: 1.60em;
+    color:#2b2b2b;
+    padding:5px;
+}
+
+
+
+.contactform
+
+{
+width:90%;
+background-color:#f3f3f3;
+border:2px solid #c7c7c7;
+height:auto;
+padding:15px;
+-moz-box-shadow: 0 0 5px #ccc;
+-webkit-box-shadow: 0 0 5px #ccc;
+box-shadow: 0 0 5px #ccc;
+margin-bottom:20px;
+}
+
+.contactform .Submit1{
+background-color:crimson;
+color:white;
+font-size:18px;
+}
+
+.contactform textarea{
+width:90%;
+height:200px;
+}
+
+.contactform h1
+{
+
+font-size:24px;
+font-weight:800;
+color:crimson;
+margin-bottom:6px;
+
+}
+
+.contactform input, textarea{
+width: 180px;
+margin-bottom: 5px;
+padding:6px;
+}
+
+.contactform label{
+float: left;
+width: 200px;
+font-weight: bold;
+font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+margin-top:10px;
+}
+
+.contactform .error{
+float: left;
+width: 200px;
+font-weight: bold;
+}
+
+
+.pushnow
+{
+font-weight:900;
+}
+
+  .highlighted {
+       background-color:#000;
+       color:#fff !important;
+    }
+
+
+  .padsmall
+  {
+margin-top:5px !important;
+
+  }
+
+  .margin-20-bot
+
+  {
+      margin-bottom:20px;
+
+  }
+
+   .margin-20-up
+
+  {
+      margin-top:20px !important;
+
+  }
+      .margin-35-up
+
+  {
+      margin-top:35px !important;
+
+  }
+
+
+
+
+/*Paragraphs*/
+p {
+	font-family: "Nunito", "Helvetica", "Arial", sans-serif;
+}
+
+/*Headings*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+
+.jll
+{
+	font-family: "JLL-HAND";
+	font-weight:normal !important;
+}
+
+/*Main Menu*/
+#mainMenu nav>ul>li>a {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.6px;
+}
+
+#mainMenu nav>ul>li .dropdown-menu>li>a,
+#mainMenu nav>ul>li .dropdown-menu>li>span,
+#mainMenu nav>ul>li .dropdown-menu>li [class*="col-"]>ul>li>a {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+#mainMenu nav>ul>li.mega-menu-item .mega-menu-content .mega-menu-title {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.header-extras>ul>li>a:not(.btn),
+.header-extras>ul>li .topbar-dropdown>.title {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+/*Page Menu*/
+.page-menu nav>ul>li {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+.page-menu nav>ul>li .dropdown-menu {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+/*Sidebar Menu*/
+.sidebar-menu {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+/*Buttons*/
+button,
+a.btn:not([href]):not([tabindex]),
+.btn {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+/*slider*/
+.inspiro-slider .slide .slide-captions .strong {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+/*Page Title*/
+#page-title .page-title>h1 {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+	font-size: 38px;
+	line-height: 56px;
+	font-weight: 400;
+}
+
+/*Footer*/
+#footer {
+	font-size: 14px;
+	font-weight: 400;
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+#footer p {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+}
+
+#footer .widget .widget-title,
+#footer .widget h4 {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+#footer .widget .widget-title ul li a,
+#footer .widget h4 ul li a {
+	font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+	font-size: 15px;
+}
+
+
+@media (min-width: 1024px)
+
+{
+
+h5,
+.text-left .h5 {
+  font-size: 1em;
+  line-height: 1.85714286em;
+  font-weight: 500;
+  max-width:400px !important;
+}
+
+}
